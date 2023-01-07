@@ -1,0 +1,70 @@
+.slider {
+    width: 100%;
+    position: relative;
+}
+
+.slider .item {
+    width: 100%;
+    opacity: 0;
+    display: none;
+}
+
+.slider .item-active {
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.slider .dot-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6px;
+    gap: 0.5%;
+}
+
+.slider .dot-active {
+    background-color: #ed7801;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .dot-inactive {
+    background-color: #f1bc87;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider .nextbtn {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    background-color: white;
+    height: 48px;
+    width: 48px;
+    opacity: 0.2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slider .prevbtn {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    background-color: white;
+    height: 48px;
+    width: 48px;
+    opacity: 0.2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

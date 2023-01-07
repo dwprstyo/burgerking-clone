@@ -1,0 +1,86 @@
+.navbar {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 76px;
+    z-index: 1000;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 50%);
+}
+
+.navbar-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+    display: table;
+    width: 100%;
+}
+
+.navbar .website {
+    display: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 35px;
+    width: 90px;
+    height: 90px;
+    z-index: 1000;
+    left: -125px;
+}
+
+.website .left-navigation {
+    float: left;
+}
+
+.website .left-navigation .group-title {
+    display: inline-block;
+    line-height: 1;
+    padding: 19px 40px 19px 0px;
+}
+
+.website .left-navigation .group-title .subtitle {
+    display: block;
+    font-size: 13px;
+    color: #faaf18;
+    font-weight: 600;
+}
+
+.website .left-navigation .group-title .title {
+    position: relative;
+    top: 3px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.website .right-navigation {
+    float: right;
+}
+
+.website .right-navigation .group {
+    display: inline-block;
+    padding: 23px 11px 15px;
+}
+
+.website .right-navigation .login {
+    font-size: 20px;
+    max-height: 34px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+}
+
+.website .right-navigation .cart {
+    height: 28px;
+    background-color: #ed7801;
+    float: left;
+    right: -80px;
+    top: 0px;
+    position: absolute;
+    padding: 24px 16px 24px 13px;
+}

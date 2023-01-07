@@ -1,0 +1,18 @@
+@import url("./css/layout/app-layout.css");
+@import url("./css/layout/navbar.css");
+@import url("./css/page/home.css");
+@import url("./css/components/slider.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

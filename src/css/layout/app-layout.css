@@ -1,0 +1,9 @@
+.app-layout {
+    background-image: url("https://bkdelivery.co.id/static/website/img/BK_bg.jpg?5218847fa211");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
