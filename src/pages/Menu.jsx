@@ -35,7 +35,7 @@ const Menu = () => {
           </div>
           <div className="item-categories-mobile">
             <div className="search-mobile">
-              {isOpen ? <BiArrowBack color="white" size="25px" onClick={() => handleOverlay()} /> : <BiSearch color="white" size="25px" onClick={() => handleOverlay()} />}
+              {isOpen ? <BiArrowBack color="white" size="25px" onClick={() => handleOverlay()} /> : <BiSearch color="white" size="25px" onClick={() => handleOverlay()} />} 
             </div>
             {isOpen ? <input className="search-overlay"  type="text" name="search" placeholder="Search Menu..." /> : <div className="category-mobile"><span>Angry Menu </span><BiDownArrowAlt /></div>}
           </div>
