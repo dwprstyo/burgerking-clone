@@ -6,6 +6,20 @@ const Slider = () => {
   const [current, setCurrent] = useState(0);
   const dataImg = useSelector((state) => state.imgSlider)
 
+  const counter = () => {
+    setTimeout(() => {
+      if (current >= dataImg.length-1) {
+        setCurrent(0)
+      }else{
+        setCurrent(current+1)
+      }
+    }, 3000);
+  }
+
+  useEffect(() => {
+    counter()
+  })
+
   const dataLength = dataImg.length - 1;
   const handlePrev = () => {
     if (current === 0) {

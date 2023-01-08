@@ -5,6 +5,7 @@ import { BrowserRouter as Router} from "react-router-dom";
 import { store } from "../redux/store";
 
 import AppRouter from "../router/AppRouter";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const AppLayout = () => {
@@ -14,6 +15,7 @@ const AppLayout = () => {
         <Router>
           <Navbar />
           <AppRouter />
+          <Footer />
         </Router>
       </Provider>
     </div>
