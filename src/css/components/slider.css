@@ -25,16 +25,16 @@
 
 .slider .dot-active {
     background-color: #ed7801;
-    width: 7px;
-    height: 7px;
+    width: 1vw;
+    height: 1vw;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .slider .dot-inactive {
     background-color: #f1bc87;
-    width: 7px;
-    height: 7px;
+    width: 1vw;
+    height: 1vw;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -44,8 +44,8 @@
     top: 40%;
     right: 2%;
     background-color: white;
-    height: 48px;
-    width: 48px;
+    height: 4vw;
+    width: 4vw;
     opacity: 0.2;
     border-radius: 50%;
     display: flex;
@@ -59,8 +59,8 @@
     top: 40%;
     left: 2%;
     background-color: white;
-    height: 48px;
-    width: 48px;
+    height: 4vw;
+    width: 4vw;
     opacity: 0.2;
     border-radius: 50%;
     display: flex;

@@ -1,0 +1,127 @@
+.login {
+    width: 100%;
+}
+
+.login .content {
+    width: 100%;
+    position: relative;
+    padding-top: 2%;
+}
+
+.login .content-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.login .form-wrapper {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 20%);
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.login .section-login {
+    padding: 35px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.login .title {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #8b542f;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.login .subtitle {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.login .input-login {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    height: 35px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    color: #404040;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+.login .btn-login {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    height: 35px;
+    background-color: #ed7801;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 5%;
+    padding: 10px;
+
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login .forgot-password {
+    color: #ed7801;
+    font-size: 15px;
+}
+
+.login .section-register {
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.login .not-member {
+    color: #8b542f;
+    font: 26px/32px "Rubik";
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 4px;
+}
+
+.login .desc {
+    display: flex;
+    flex-direction: row;
+}
+
+.login .subdesc {
+    font: 15px/22px "Rubik";
+    color: #404040;
+    width: 75%;
+}
+
+.login .btn-register {
+    font: 18px "Rubik";
+    font-weight: 600;
+    padding: 10px;
+    background-color: #ed7801;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-height: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .login .content-wrapper {
+        width: 100%;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+}

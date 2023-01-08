@@ -1,0 +1,25 @@
+.promo {
+    width: 100%;
+}
+
+.promo .content {
+    width: 100%;
+    position: relative;
+    padding-top: 2%;
+}
+
+.promo .content-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.promo .img-promo {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .promo .content-wrapper {
+        width: 100%;
+    }
+}

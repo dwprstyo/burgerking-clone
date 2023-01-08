@@ -3,6 +3,10 @@ const initialState = {
         "https://bkdelivery.co.id/media/slider_image/2022/12/20/iuazeo3rf9k7o7mdjfcpul.jpg",
         "https://bkdelivery.co.id/media/slider_image/2022/12/31/jgosprwu5pzweryadmni4e.jpg",
       ],
+    promo: [
+        "https://bkdelivery.co.id/media/landscape_image/2022/12/31/aaabgu8sqzxcfihzttxtcz.jpg",
+        "https://bkdelivery.co.id/media/landscape_image/2022/12/14/vw8br47xzvxuycllgu3hax.jpg"
+    ],
     menu: [
         {
             id: 1,

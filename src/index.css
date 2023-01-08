@@ -1,6 +1,9 @@
 @import url("./css/layout/app-layout.css");
 @import url("./css/layout/navbar.css");
 @import url("./css/page/home.css");
+@import url("./css/page/menu.css");
+@import url("./css/page/promo.css");
+@import url("./css/page/login.css");
 @import url("./css/components/slider.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');

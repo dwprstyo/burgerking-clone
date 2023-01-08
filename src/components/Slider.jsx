@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
@@ -32,7 +32,7 @@ const Slider = () => {
         <GrFormPrevious size="25px" />
       </div>
       <div className="nextbtn" onClick={handleNext}>
-        <GrFormNext size="25px" />
+        <GrFormNext size="25vw" />
       </div>
       {dataImg.map((url, index) => {
         return (
